@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F4D041"
+    android:layout_height="match_parent"
+    tools:context=".intropage">
+
+    <ImageView
+        android:id="@+id/pdfviewerimage"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="@dimen/_175sdp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/pdfviewer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/welcometextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Welcome To PDF Viewer"
+        android:textAlignment="center"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_28sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pdfviewerimage">
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/getstartedbutton"
+        android:layout_width="@dimen/_155sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        android:backgroundTint="#5582FD"
+        android:text="Get Started"
+        android:textSize="@dimen/_14sdp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcometextview">
+
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

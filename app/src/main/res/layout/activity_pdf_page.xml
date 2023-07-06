@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".PdfPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview1"
+                android:visibility="invisible"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_10sdp"
+                android:layout_height="@dimen/_155sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageview1"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/pdficon"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_height="@dimen/_110sdp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textview1"
+                        android:layout_width="match_parent"
+                        android:text="Introduction to Artificial Intelligence"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/_16sdp"
+                        android:textColor="@color/black"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:scrollHorizontally="true"
+                        android:layout_height="match_parent">
+
+                        <requestFocus />
+
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview2"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/white"
+                android:visibility="invisible"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_10sdp"
+                android:layout_height="@dimen/_155sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageview2"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/pdficon"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_height="@dimen/_110sdp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textview2"
+                        android:layout_width="match_parent"
+                        android:text="        Introduction to CyberSecurity Learning        "
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/_16sdp"
+                        android:textColor="@color/black"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:scrollHorizontally="true"
+                        android:layout_height="match_parent">
+                        <requestFocus />
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview3"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/white"
+                android:visibility="invisible"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_10sdp"
+                android:layout_height="@dimen/_155sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageview3"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/pdficon"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_height="@dimen/_110sdp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textview3"
+                        android:layout_width="match_parent"
+                        android:text="        Introduction to Deep Learning        "
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/_16sdp"
+                        android:textColor="@color/black"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:scrollHorizontally="true"
+                        android:layout_height="match_parent">
+                        <requestFocus />
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
